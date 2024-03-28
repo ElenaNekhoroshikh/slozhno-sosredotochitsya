@@ -188,8 +188,8 @@
 }
 
 @media (width >= 1024px) {
-  .header__text {
-    margin-block-end: -15px;
+  .header__title {
+    line-height: 0.825;
   }
 }
 
@@ -217,7 +217,7 @@
 }
 
 .accented-link:hover {
-  text-decoration: underline;
+  border-block-end: 1px solid var(--text-color, #f1b2ce);
 }
 
 .accented-link:focus {
